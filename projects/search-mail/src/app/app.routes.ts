@@ -7,7 +7,7 @@ export const APP_ROUTES: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'calendar',
+    path: 'search-mail',
     loadChildren: () => import('./search-mail/search-mail.module').then(m => m.SearchMailModule),
   }
 ];

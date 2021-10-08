@@ -11,7 +11,7 @@ const routes: Routes = [
     loadChildren: () => import('calendar/CalendarModule').then(m => m.CalendarModule)
   },
   {
-    path: 'searchmail',
+    path: 'search-mail',
     loadChildren: () => import('searchMail/SearchMailrModule').then(m => m.SearchMailrModule)
   },
 ];
